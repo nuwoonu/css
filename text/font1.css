@@ -1,0 +1,53 @@
+p
+{
+    /* normal(기본값), italic, oblique*/
+    font-style: oblique;
+    /* 100~900, bold , normal*/
+    font-weight: 400;
+    font-size: 1.2em; /* 16*1.2 */
+
+    /*글꼴 : 설치된 글꼴
+      글꼴 게열 : serif(바탕체), sans-serif(고딕체), monospace(고정너비 글꼴), cursive(필기체 계열),
+    */
+    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+    
+}
+/* text-align : left; (기본값)
+   text-decoration : underline(밑줄), overline, line-through(취소선)
+*/
+p.left /*기본 값*/
+{
+    text-align: left;
+    text-decoration: underline line-through overline;
+}
+p.right{
+    text-align: right;
+    text-decoration: wavy underline red;
+}
+p.center
+{
+    text-align: center;
+    text-decoration: dotted underline overline red 5px;
+}
+p.justify
+{
+    text-align: justify;
+}
+p.transform /*text - transform : 1.capitalize(각 단어의 첫글자만 대문자) 2.lowercase(전부 소문자) 3. uppercase(전부 대문자)*/
+{
+    text-transform: uppercase;
+}
+p.shadow
+{
+    /* x , y ,흐림정도 ,색상 */
+    /* text-shadow: -3px 4px blue; */
+    /* 상 하 좌 우  x,y ,색상 */
+    /* 0은 단위를 쓰지 않아도 된다. */
+    text-shadow: 0 1px red, 0 -1px red,1px 0 red, -1px 0 red;
+    
+}
+p.indent
+{
+    /* - 값은 내어쓰기, + 들여쓰기 */
+    text-indent: 50px;
+}

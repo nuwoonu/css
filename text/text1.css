@@ -1,0 +1,14 @@
+.letter
+{
+    /* 자간, 단어 간격,줄높이 em 단위 권장 */
+    /* letter-spacing: -2px; */
+    font-size: 14px;
+    /* 줄높이 */
+    line-height: 1.2em;
+
+}
+.word
+{
+    /* 단어 간격 */
+    word-spacing: -2px;
+}

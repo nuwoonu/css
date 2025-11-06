@@ -1,0 +1,17 @@
+ul
+{
+    /* disc(기본), circle , square */
+    list-style: square;
+}
+ul > li:first-child{
+    list-style: "▶︎ ";
+}
+ol
+{
+    /* upper-alpha(lower-alpha)  , upper-roman(lower-roman), lower-alpha, decimal(기본값) */
+    list-style: decimal;
+}
+ul
+{
+    list-style: none;
+}

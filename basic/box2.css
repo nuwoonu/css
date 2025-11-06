@@ -1,0 +1,22 @@
+span
+{
+    background-color: slateblue;
+     display: inline-block;
+    /*width: 100px;
+    height: 150px; */
+    margin: 20px;
+    padding: 20px;
+}
+div
+{
+    background-color: tomato;
+    /* display: inline-block;
+    width: 100px;
+    height: 150px; */
+    margin: 20px; /* 바깥쪽 기준 상 하 좌 우*/
+    padding: 20px;
+}
+div:nth-child(even)
+{
+    background-color: orangered;
+}

@@ -1,0 +1,32 @@
+body
+{
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color:orangered;
+    /* 좌우 여백공간 자동으로 채우는 방식.*/
+    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    /* 크기를 얘기할때 마진은 빼고 보더 패딩을 포함한 크기이다. */
+}
+
+.circle
+{
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* border-radius: 10px 20px; */
+    /* 너비,높이 300px, 글자색 흰색, 글자크기 5em, 글자 가운데 정렬*/
+    /* 테두리 : 2px 실선 검정색 */
+    line-height: 300px; /*box의 height랑 같은 크기로 지정*/
+}
