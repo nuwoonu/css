@@ -22,11 +22,19 @@ div{
     height: 300px;
     color: white;
     font-size: 5em;
-    text-align: center;
+    /*text-align: center;*/ /*수평 가운데*/
     border: 2px solid black;
     border-radius: 50%;
     /* border-radius: 10px 20px; */
     /* 너비,높이 300px, 글자색 흰색, 글자크기 5em, 글자 가운데 정렬*/
     /* 테두리 : 2px 실선 검정색 */
-    line-height: 300px; /*box의 height랑 같은 크기로 지정*/
+    
+    /*line-height: 300px;*/ /*box의 height랑 같은 크기로 지정*/
+
+    /*유용하게 쓰이는것!*/
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

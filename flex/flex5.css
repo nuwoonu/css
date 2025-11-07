@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    border: 4px solid black;
+    display: flex;
+}
+.container .item
+{
+    height: 100px;
+    background-color: tomato;
+    border: 4px dashed red;
+    border-radius: 10px;
+    /* 증가, 감소, 기본 */
+    /*flex: 1;*/ /*1 1 0 개념과 같다.. */
+    /* flex: 0 1 0; */
+    /* flex-basis: 200px;  플레스 아이템들의 기본 너비 지정*/
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    flex: 1 1 auto;
+}
