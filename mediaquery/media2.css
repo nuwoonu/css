@@ -1,0 +1,46 @@
+/* background image change 
+    0 - 320px : bg3.jpg
+    321 - 768 : bg2.jpg
+    769 - 1024: bg1.jpg
+    1025-     : bg0.jpg
+*/
+
+body
+{
+    /* background-image: url(../../images/bg0.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     */
+    background: url(../../images/bg0.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    body {
+        background: url(../../images/bg1.jpg) no-repeat fixed;
+        background-size: cover;
+    }
+    
+       
+}
+
+@media screen and (max-width: 768px)
+{
+    body{
+        background: url(../../images/bg2.jpg) no-repeat fixed;
+        background-size: cover;
+
+
+    }
+    }
+
+@media scree and(max-width: 320px)
+{
+    body{
+        background: url(../../images/bg3.jpg) no-repeat fixed;
+        background-size: cover;
+
+    }
+}
