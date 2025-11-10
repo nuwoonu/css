@@ -1,0 +1,29 @@
+/* :checked + label ==> 체크가 되면 색깔 변환 
+    :checked ~ label ==> 체크가 되면 전체변환
+*/
+[type="radio"]:checked + label 
+{
+    color: tomato;
+}
+[type="radio"] :disabled + label 
+{
+    color: darkcyan;
+    text-decoration: underline;
+}
+[type="radio"] :enabled + label 
+{
+    text-decoration: line-through;
+}
+[type="text"]:focus
+{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: lightblue;
+    outline: none; /* 테두리 색깔 없앰.*/
+    outline: 2px solid darkblue
+}
+[type="text"]:required
+{
+    border-color: blueviolet;
+}
+    

@@ -1,0 +1,45 @@
+/* width,height : auto(기본값), px, em, rem , vw, vh, % 
+    
+    화면 기준으로 단위 사용
+    vw : viewport width
+    wh : viewport height
+
+    블럭요소
+    width : auto == 100%
+    height: auto == 0
+    content on case : !=0
+
+    max-width,min-width :width 속성을 재정의
+    max-widsth : 부모가 늘어날때 자식도 같이 늘어나며 자식의 최대 크기 제한.
+    min-width : 부모가 줄어들더라고 자식에게 보장하는 최소 넓이.
+    
+    max-heightm - min height
+*/
+.container
+{
+    display: flex;
+}
+.container div
+{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.container div:first-child
+{
+    background-color: azure;
+}
+.container div:nth-child(2)
+{
+    background-color: bisque;
+    display: none;
+}
+.container div:nth-child(3)
+{
+    background-color: darkcyan;
+    visibility: hidden;
+}
+.container div:last-child
+{
+    background-color: darkgray;
+}
